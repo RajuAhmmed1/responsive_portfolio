@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lexend deca";
+}
+
+.site-name-color {
+  color: #eab308;
+}
+
+.site-name {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020617;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-menu li a {
+  font-family: Verdana;
+  text-decoration: none;
+  color: #9ca3af;
+  font-weight: 500;
+  display: block;
+  line-height: inherit;
+}
+.nav-menu li a:hover {
+  color: #ffffff;
+}
+.profile-image {
+  max-width: 300px;
+  display: flex;
+  margin-top: -60px;
+}
+.profile-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 7px rgba(255, 255, 255, 1);
+}
+
+.intro-section {
+  padding: 165px 0;
+  background-color: #111827;
+  justify-content: center;
+  gap: 150px;
+}
+.intro-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 450px;
+  justify-content: center;
+}
+
+.intro-detail .welcome-text {
+  color: #eab308;
+}
+.intro-detail h3 {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.intro-detail p {
+  color: #6b7280;
+}
+
+.cv-button button {
+  padding: 12px 23px;
+  background-color: #eab308;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.cv-button a {
+  text-decoration: none;
+}
+
+.skill-section {
+  background-color: #020617;
+}
+
+.skill-sub-section {
+  gap: 10px;
+}
+.skill-title,
+.project-title {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.skill-title h3 {
+  font-size: 36px;
+  color: #eab308;
+  padding-bottom: 8px;
+}
+.skill-title p {
+  color: #6b7280;
+}
+
+.skill-heading {
+  color: #ffffff;
+  border-bottom: 3px solid #eab308;
+}
+.skill-detail {
+  color: #6b7280;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.skill-html,
+.skill-css,
+.skill-javascript {
+  background-color: #111827;
+  padding: 40px 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.skill-javascript:hover {
+  border: 1px solid #ffffff;
+}
+.skill-html:hover {
+  border: 1px solid #ffffff;
+}
+.skill-css:hover {
+  border: 1px solid #ffffff;
+}
+
+.project-section {
+  padding: 100px 0;
+  background-color: #111827;
+}
+
+.project-title-design,
+.skill-title-design {
+  color: #ffffff;
+}
+
+.project-title h3 {
+  font-size: 36px;
+  color: #eab308;
+  padding-bottom: 8px;
+}
+
+.project-title p {
+  color: #6b7280;
+}
+.project-passio,
+.project-chashi,
+.project-mda {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  box-shadow: 5px 1px 7px rgba(0, 0, 0, 0.5);
+  padding: 50px 30px;
+}
+.share-link .divider {
+  color: white;
+}
+.share-link a {
+  color: #0066b2;
+}
+.project-heading {
+  color: #ffffff;
+}
+.project-detail {
+  color: #9ca3af;
+}
+
+.project-sub-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact-section {
+  padding: 100px 0px;
+  background-color: #020617;
+}
+.contact-title-design {
+  color: #ffffff;
+}
+.contact-title h3 {
+  font-size: 36px;
+  color: #eab308;
+  padding-bottom: 8px;
+}
+
+.contact-title p {
+  color: #6b7280;
+}
+.contact-form {
+  gap: 25px;
+  margin: 0 auto;
+}
+.contact-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.contact-form .name,
+.number,
+.email {
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  padding: 1px 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.contact-form .name,
+.number,
+.email:focus {
+  outline-color: #eab308;
+}
+
+.contact-form button {
+  padding: 12px 23px;
+  background-color: #eab308;
+  color: black;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.text-box {
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.text-box:focus {
+  outline-color: #eab308;
+}
+.footer {
+  background-color: #111827;
+  padding: 50px 0;
+}
+.footer p {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}

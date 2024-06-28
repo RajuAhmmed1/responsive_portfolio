@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Raju's Portfolio</title>
+  </head>
+  <body>
+    <nav class="py-5 main-nav lg:py-1 md:py-1" id="navbar">
+      <div class="px-6 site-name">
+        <span class="site-name-color">R</span>aju<span class="site-name-color"
+          >A</span
+        >hmmed
+      </div>
+      <ul class="dropdown-menu nav-menu flex flex-col -top-full py-6 absolute gap-5 items-center w-full bg-[#020617] md:static md:flex-row md:justify-end lg:static lg:flex-row lg:justify-end">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="px-8 toggle-button text-[#ffffff] cursor-pointer">
+        <i class="fa-solid fa-bars md:hidden lg:hidden text-2xl"></i>
+      </div>
+
+    </nav>
+    <section class="flex items-center flex-col md:flex-row md:px-5 intro-section" id="about">
+      <div class="order-2 items-center md:items-start intro-detail">
+        <p class="welcome-text">Hello, Welcome</p>
+        <h3>I am Raju Ahmmed</h3>
+        <p>
+          A Tech Enthusiast, Developer and Designer. I make things that are
+          fast, easy to manage and look minimal on the web.
+        </p>
+        <div class="cv-button">
+          <a
+            href="https://drive.google.com/file/d/1vSYjFvlZFj_88Z3nw_ofWucSX7MwFQDc/view"
+            target="_blank"
+            ><button>Download Resume</button></a
+          >
+        </div>
+      </div>
+      <div class="order-1 md:order-2 lg:order-2 profile-image">
+        <img src="assets/profile.png" alt="profile image" />
+      </div>
+    </section>
+
+    <section class="px-20 py-20 md:px-20 skill-section" id="skills">
+      <div class="skill-title">
+        <h3><span class="skill-title-design">My </span>Skills</h3>
+        <p>Bellow, I have illustrated about some of my Skills</p>
+      </div>
+
+      <div class="flex py-10 flex-col gap-10 md:flex-row md:gap-5 whitespace-norwap skill-sub-section">
+        <div class="skill-html">
+          <h3 class="skill-heading">HTML</h3>
+          <p class="skill-detail">
+            HTML tags, semantic elements and modern tecjnology
+          </p>
+        </div>
+        <div class="skill-css">
+          <h3 class="skill-heading">CSS</h3>
+          <p class="skill-detail">
+            Grid, flex-box and tailwind CSS to power modern styles
+          </p>
+        </div>
+        <div class="bg-red skill-javascript">
+          <h3 class="skill-heading">JavaScript</h3>
+          <p class=" skill-detail">
+            Modern JavaScript with asynchronous behaviour and redux.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-10 md:px-20 project-section" id="projects">
+      <div class="project-title">
+        <h3><span class="project-title-design">My </span>Projects</h3>
+        <p>Bellow, I have attached some of my Projects</p>
+      </div>
+
+      <div class="project-sub-section">
+        <div class="project-passio">
+          <h3 class="project-heading">Passio Architects</h3>
+          <p class="project-detail">
+            It was an web application and used PHP for back-end, CSS, JavaScript
+            were used for the front-end development.
+          </p>
+          <div class="share-link">
+            <a href="">Github</a>
+            <span class="divider"> | </span>
+            <a
+              href="https://github.com/RajuAhmmed1/Passioarchitects"
+              target="_blank"
+              >Live Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-chashi">
+          <h3 class="project-heading">Chashi</h3>
+          <p class="project-detail">
+            It was an web application and used PHP for back-end, CSS, JavaScript
+            were used for the front-end development.
+          </p>
+          <div class="share-link">
+            <a
+              href="https://github.com/RajuAhmmed1/Project-Chashi"
+              target="_blank"
+              >Github</a
+            >
+            <span class="divider"> | </span>
+            <a href="https://passioarchitects.com/">Live Project</a>
+          </div>
+        </div>
+
+        <div class="project-mda">
+          <h3 class="project-heading">My Dreams Academy</h3>
+          <p class="project-detail">
+            This website was built for an American private school which is
+            located in Arlington, Texas.
+          </p>
+          <div class="share-link">
+            <a href="">Github</a>
+            <span class="divider"> | </span>
+            <a href="https://mydreamsacademy.org/" target="_blank"
+              >Live Project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="px-0 contact-section" id="contact">
+        <div class="contact-title">
+          <h3><span class="contact-title-design">Contact </span>Me</h3>
+        <p>Just send me a message to begin!</p>
+        </div>
+  
+    
+        <form class="flex flex-col w-10/12 md:w-6/12 contact-form" action="https://formspree.io/f/xrbzzpad" method="post">
+         <input class="name" type="text" name="name" placeholder="Your Name">
+         <input class="number" type="number" name="phone_number" placeholder="Your Phone Number">
+         <input class="email" type="email" name="email" placeholder="Your Email">
+         <textarea class="text-box" name="message" id="" cols="30" rows="10" placeholder="Write You Message"></textarea>
+         <button type="submit">Send Message</button>
+        </form>
+         
+        </div>
+      </section>
+      <section class="footer">
+        <p>©Raju Ahmmed, All rights reserved 2024</p>
+
+      </section>
+
+      <script>
+        const toggleBtn=document.querySelector(".toggle-button");
+        const dropDown=document.querySelector(".dropdown-menu");
+         toggleBtn.addEventListener("click", ()=>{
+          dropDown.classList.toggle('top-16')
+         } )
+       
+    
+      </script>
+
+  </body>
+  
+</html>
